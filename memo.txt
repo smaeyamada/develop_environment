@@ -1,0 +1,15 @@
+https://zenn.dev/en2enzo2/articles/78d57ec01ed0c5
+
+起動確認
+docker compose ps
+
+jupyterlabデーモン起動
+docker compose up
+
+(別ターミナルで)IPアドレス確認
+ip a
+
+ブラウザで http://192.168.aaa.bbb:8000 へアクセス
+・(IPは変わっているかも)
+・tokenはデーモン起動ログから取得
+
